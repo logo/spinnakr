@@ -1,0 +1,22 @@
+
+/**
+ * Spinnakr
+ */
+
+.logo[data-logo="Spinnakr"] {
+  width: 4.079761095em;
+  /* (1618.89/396.81) * (1) - 0 */
+}
+
+.logo[data-logo="Spinnakr"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0;
+}
+
+.logo[data-logo="Spinnakr"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Spinnakr"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
